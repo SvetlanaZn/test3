@@ -19,7 +19,7 @@ console.log(FULL_URL);
 let data = '';
 
 fetch(FULL_URL)
-    .then(function(response) {
+    .then(function(response) {  
         //alert(response.headers.get(‘Content-Type’)); // application/json; charset=utf-8
         //alert(response.status); // 200
         return response.json();
